@@ -5,13 +5,14 @@ Python es un lenguaje de programación:
 
 * De propósito general
 * De *alto nivel*
-* Interpretado (principalmente)
+* Interpretado (principalmente): 
 * De tipaje fuerte y dinámico
 * De multi-paradigma
 * Enfocado en la lectura y rápido desarrollo por humanos (pero nada evita que puedas escribir scripts, notebooks, módulos y paqueterías que nadie entienda)
 * Es *garbage collected*
 * Con *baterías incluídas* y altamente extensible
 * Software libre
+* Que es pegamento
 
 ## Criticismo que ya no es válido desde hace varios años
 
@@ -44,3 +45,17 @@ Un ejemplo reciente de esto es Deepseek vs ChatGPT hace varios meses (al momento
 * *¡Python es un caos!, ¿Cual usar, Python 2.X.X o Python 3.X.X?*
 
 Cuando se lanzó Python 3 hubo demasiados conflictos ya que el lenguaje sufrió una serie de cambios que rompieron la compatibilidad con demasiados proyectos que en ese entonces estaban escritos en Python 2.X.X. Durante años esto generaba fuertes discusiones pero ya no más, desde el primero de enero del año 2020, Python 2.X.X detuvo su desarrollo y prácticamente ningún proyecto serio que siga en desarrollo o mantenimiento usa Python 2.X.X. Ya solo se usa Python 3.X.X.
+
+## Criticismo que SI es válido hoy en día
+
+* *¡Python es un caos!, Las dependias pueden ser una pesadilla en el desarrollo*
+
+Así es. Si las dependencias se vuelven un problema, es hora de revisar y re-implementar varias partes del proyecto y reducir dependencias. 
+
+* *¡Python no es el mejor!, Para este caso...*
+
+Es correcto. Se pueden encontrar casos donde aún escribiendo buen código en Python, otros lenguajes van a resultar mejores para la tarea específica. Principalmente, para proyectos de bajo nivel o que requieran **lazy evaluation**.
+
+* *No es trivial crear un ejecutable*
+
+Aunque existen opciones para compilar ejecutables de un proyecto escrito en Python, la realidad es que no es trivial como en otros lenguajes y no hay una solución definitiva al respecto. 
