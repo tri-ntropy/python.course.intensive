@@ -48,14 +48,18 @@ Cuando se lanzó Python 3 hubo demasiados conflictos ya que el lenguaje sufrió 
 
 ## Criticismo que SI es válido hoy en día
 
-* *¡Python es un caos!, Las dependias pueden ser una pesadilla en el desarrollo*
+* *¡Python es un caos!, Las dependencias pueden ser una pesadilla en el desarrollo*
 
 Así es. Si las dependencias se vuelven un problema, es hora de revisar y re-implementar varias partes del proyecto y reducir dependencias. 
 
 * *¡Python no es el mejor!, Para este caso...*
 
-Es correcto. Se pueden encontrar casos donde aún escribiendo buen código en Python, otros lenguajes van a resultar mejores para la tarea específica. Principalmente, para proyectos de bajo nivel o que requieran **lazy evaluation**.
+Es correcto. Según el caso, aún escribiendo buen código en Python, va a resultar que otros lenguajes ofrecen mejor desempeño para la tarea específica. Principalmente, para proyectos de bajo nivel o que requieran **lazy evaluation**.
 
 * *No es trivial crear un ejecutable*
 
-Aunque existen opciones para compilar ejecutables de un proyecto escrito en Python, la realidad es que no es trivial como en otros lenguajes y no hay una solución definitiva al respecto. 
+Aunque existen opciones para compilar ejecutables de un proyecto escrito en Python, la realidad es que no es trivial como en otros lenguajes y no hay una solución definitiva al respecto.
+
+* *Las bibliotecas no son totalmente software libre*
+
+Aunque Python y sus bibliotecas estándar si son software libre, muchas bibliotecas hechas por terceros no lo son o solo son software libre parcialmente. 
