@@ -2,6 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def euler(t0, tf, x0, v0, n, fuerza = lambda x, v, i: 0):
+    """
+    Esta es una función de simulación que sigue el algoritmo de Euler
+    Parametros
+    ----------
+    
+    """
     tiempo, paso_tiempo = np.linspace(t0, tf, n + 1, retstep = True)
 
     velocidad = np.zeros(n + 1)
